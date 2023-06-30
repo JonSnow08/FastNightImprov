@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+	<translationContributors/>
+	<texts>
+		<!-- Keys -->
+		<text name = "input_fastnight_Minus" text = "Fastnight: Timescale -" />
+		<text name = "input_fastnight_Plus" text = "Fastnight: Timescale +" />
+		<!-- Gui -->
+		<text name = "input_fastnight_Setting" text = "Fastnight: Settings" />
+		<text name = "gui_fn_Setting" text = "FastNight - Settings" />
+		<text name = "gui_fn_StartDayHourToolTip" text = "Select the start hour for the day mode" />
+		<text name = "gui_fn_StartDayMinuteToolTip" text = "Select the start minute for the day mode" />
+		<text name = "gui_fn_DayTimeScaleToolTip" text = "Select the time scaling for the day mode" />
+		<text name = "gui_fn_AutoDayTimeScaleToolTip" text = "enables / disables automatic day time scaling" />
+		<text name = "gui_fn_StartNightHourToolTip" text = "Select the start hour for night mode" />
+		<text name = "gui_fn_StartNightMinuteToolTip" text = "Select the start minute for night mode" />
+		<text name = "gui_fn_NightTimeScaleToolTip" text = "Select the time scaling for night mode" />
+		<text name = "gui_fn_AutoNightTimeScaleToolTip" text = "enables / disables automatic night time scaling" />
+		<text name = "gui_fn_ShowHelpToolTip" text = "Show Fastnight key assignment in F1 help window"/>
+		<text name = "gui_fn_StartDayHour" text = "Start hour for day mode" />
+		<text name = "gui_fn_StartDayMinute" text = "Start minute for day mode" />
+		<text name = "gui_fn_DayTimeScale" text = "Time scaling for day mode" />
+		<text name = "gui_fn_AutoDayTimeScale" text = "Auto Day time scaling" />
+		<text name = "gui_fn_StartNightHour" text = "Start hour for night mode" />
+		<text name = "gui_fn_StartNightMinute" text = "Start minute for night mode" />
+		<text name = "gui_fn_NightTimeScale" text = "Time scaling for night mode" />
+		<text name = "gui_fn_AutoNightTimeScale" text = "Auto night time scaling" />
+		<text name = "gui_fn_ShowHelp" text = "show key assignment"/>
+		<text name = "gui_fn_BtnBack" text = "Exit Menu"/>
+		<text name = "gui_fn_Save" text = "apply settings"/>
+		<text name = "gui_fn_SaveToolTip" text = "applies the current settings"/>		
+	</texts>
+</l10n>

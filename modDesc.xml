@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="69">
+    <author>apuehri</author>
+    <version>1.0.1.0</version>
+	
+    <title>
+		<en>FastNight</en>
+		<de>Schnellere Nacht</de>
+    </title>
+	
+	<description>
+		<en><![CDATA[The night will pass faster than you think!
+
+This mod sets the time scale once a morning and once in the evening on a certain time scale!
+"Left-Shift" + "0" calls up the settings menu in which
+the values can be changed. Settings are saved in the savegame.
+In addition, with the keys "Left-Shift" + "7" / "Left-Shift" + "8"
+a manual change of the time scale in finer steps is
+possible! Buttons only works outside of vehicles!!
+In multiplayer, the settings can only be changed by the administrator!!
+
+Changelog 1.0.1.0:
+ - Fix: Time scaling is not loaded correctly at game start
+]]></en>
+
+		<de><![CDATA[Die Nacht wird schneller vergehen als du denkst!
+
+Dieser Mod stellt die Zeitskalierung einmal morgens und einmal abends auf eine bestimmte Zeitskalierung!
+"Shift-Links" + "0" ruft das Einstellungsmenü auf in dem die Werte
+verändert werden können. Einstellungen werden im Savegame gespeichert
+Ausserdem ist mit den Tasten "Shift-Links" + "7" / "Shift-Links" + "8"
+eine manuelle Veränderung der Zeitskalierung in feineren Schritten
+möglich! Bedienung funktioniert nur außerhalb von Fahrzeugen!!
+Im Multiplayer können die Einstellungen nur vom Administrator
+verwaltet werden!!
+
+Changelog 1.0.1.0:
+ - Fix: Zeitskalierung wird nicht richtig geladen bei Spielstart
+]]></de>
+
+      <fr><![CDATA[La nuit passera plus vite que vous ne le pensez!
+
+Ce mod définit l'échelle de temps une fois par matin et une fois
+Dans la soirée sur une certaine échelle de temps!
+"Left-Shift" + "0" appelle le menu des paramètres dans lequel 
+les valeurs peut être changé. 
+Les paramètres sont sauvegardés dans la sauvegarde
+De plus, avec les touches "Left-Shift" + "7" / "Left-Shift" + "8"
+un changement manuel de l'échelle de temps en étapes plus fines
+possible! L'opération ne fonctionne qu'en dehors des véhicules !!
+En multijoueur, les paramètres ne peuvent être modifiés 
+que par l'administrateur !!
+
+Changelog 1.0.1.0:
+ - Correction : l'échelle de temps n'est pas chargée correctement au début du jeu
+]]></fr> 
+	</description>	
+	
+	<iconFilename>icon.png</iconFilename>
+	<multiplayer supported="true"/>
+	
+	<l10n filenamePrefix="l10n/modDesc_l10n"/>
+			
+    <actions>
+        <action name="fastnight_Minus" 		category="PLAYER"	axisType="HALF" ignoreComboMask="false"/>
+        <action name="fastnight_Plus" 		category="PLAYER"   axisType="HALF" ignoreComboMask="false"/>
+        <action name="fastnight_Setting"	category="PLAYER"   axisType="HALF" ignoreComboMask="false"/>		
+    </actions>	
+    
+	<inputBinding>
+        <actionBinding action="fastnight_Minus" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_7" />
+        </actionBinding>
+        <actionBinding action="fastnight_Plus" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_8" />
+        </actionBinding>
+        <actionBinding action="fastnight_Setting" >
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lshift KEY_0" />
+        </actionBinding>
+    </inputBinding>	
+	
+    <extraSourceFiles>
+        <sourceFile filename="Fastnight.lua"/>
+    </extraSourceFiles>	
+	
+</modDesc>

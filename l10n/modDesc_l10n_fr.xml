@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+	<translationContributors/>
+	<texts>
+		<!-- Keys -->
+		<text name = "input_fastnight_Minus" text = "Fastnight: Echelle de temps moins" />
+		<text name = "input_fastnight_Plus" text = "Fastnight: Échelle de temps plus" />
+		<!-- Gui -->
+		<text name = "input_fastnight_Setting" text = "Fastnight: Paramètres" />
+		<text name = "gui_fn_Setting" text = "Paramètres FastNight" />
+		<text name = "gui_fn_StartDayHourToolTip" text = "Sélectionnez l'heure de début du mode jour" />
+		<text name = "gui_fn_StartDayMinuteToolTip" text = "Sélectionnez la minute de début du mode jour" />
+		<text name = "gui_fn_DayTimeScaleToolTip" text = "Sélectionnez l'échelle de temps pour le mode jour" />
+		<text name = "gui_fn_AutoDayTimeScaleToolTip" text = "active / désactive la mise à l'échelle automatique du jour" />
+		<text name = "gui_fn_StartNightHourToolTip" text = "Sélectionnez l'heure de début pour le mode nuit" />
+		<text name = "gui_fn_StartNightMinuteToolTip" text = "Sélectionnez la minute de début pour le mode nuit" />
+		<text name = "gui_fn_NightTimeScaleToolTip" text = "Sélectionnez l'échelle de temps pour le mode nuit" />
+		<text name = "gui_fn_AutoNightTimeScaleToolTip" text = "active / désactive la mise à l'échelle automatique de la nuit" />
+		<text name = "gui_fn_ShowHelpToolTip" text = "Afficher l'attribution de clé Fastnight dans la fenêtre d'aide F1"/>
+		<text name = "gui_fn_StartDayHour" text = "Heure de début pour le mode jour" />
+		<text name = "gui_fn_StartDayMinute" text = "Startminute pour le mode jour" />
+		<text name = "gui_fn_DayTimeScale" text = "Mise à l'échelle du temps pour le mode jour" />
+		<text name = "gui_fn_AutoDayTimeScale" text = "Échelle de temps automatique du jour" />
+		<text name = "gui_fn_StartNightHour" text = "Heure de début du cauchemar" />
+		<text name = "gui_fn_StartNightMinute" text = "Démarrer la nuit pour le mode nuit" />
+		<text name = "gui_fn_NightTimeScale" text = "Échelle de temps pour le mode nuit" />
+		<text name = "gui_fn_AutoNightTimeScale" text = "Échelle de temps de nuit automatique" />
+		<text name = "gui_fn_ShowHelp" text = "Afficher l'affectation des clés"/>
+		<text name = "gui_fn_BtnBack" text = "Quitter le menu "/>
+		<text name = "gui_fn_Save" text = "Enregistrer les paramètres"/>
+		<text name = "gui_fn_SaveToolTip" text = "applique les paramètres actuels "/>		
+	</texts>
+</l10n>

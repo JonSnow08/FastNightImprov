@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+	<translationContributors/>
+	<texts>
+		<!-- Keys -->
+		<text name = "input_fastnight_Minus" text = "Fastnight: Zeitskalierung -"/>
+		<text name = "input_fastnight_Plus" text = "Fastnight: Zeitskalierung +"/>		
+		<!-- Gui -->
+		<text name = "input_fastnight_Setting" text = "Fastnight: Einstellungen"/>
+		<text name = "gui_fn_Setting" text = "FastNight - Einstellungen"/>
+		<text name = "gui_fn_StartDayHourToolTip" text = "Wähle die Startstunde für den Tagmodus"/>
+		<text name = "gui_fn_StartDayMinuteToolTip" text = "Wähle die Startminute für den Tagmodus"/>
+		<text name = "gui_fn_DayTimeScaleToolTip" text = "Wähle die Zeitskalierung für den Tagmodus"/>		
+		<text name = "gui_fn_AutoDayTimeScaleToolTip" text = "aktiviert / deaktiviert die automatische Tag Zeitskalierung"/>
+		<text name = "gui_fn_StartNightHourToolTip" text = "Wähle die Startstunde für den Nachtmodus"/>
+		<text name = "gui_fn_StartNightMinuteToolTip" text = "Wähle die Startminute für den Nachtmodus"/>
+		<text name = "gui_fn_NightTimeScaleToolTip" text = "Wähle die Zeitskalierung für den Nachtmodus"/>		
+		<text name = "gui_fn_AutoNightTimeScaleToolTip" text = "aktiviert / deaktiviert die automatische Nacht Zeitskalierung"/>
+		<text name = "gui_fn_ShowHelpToolTip" text = "Fastnight-Tastenbelegung im F1-Hilfefenster anzeigen"/>
+		<text name = "gui_fn_StartDayHour" text = "Startstunde für Tagmodus"/>
+		<text name = "gui_fn_StartDayMinute" text = "Startminute für Tagmodus"/>
+		<text name = "gui_fn_DayTimeScale" text = "Zeitskalierung für Tagmodus"/>
+		<text name = "gui_fn_AutoDayTimeScale" text = "Auto Tag Zeitskalierung"/>
+		<text name = "gui_fn_StartNightHour" text = "Startstunde für Nachtmodus"/>
+		<text name = "gui_fn_StartNightMinute" text = "Startminute für Nachtmodus"/>
+		<text name = "gui_fn_NightTimeScale" text = "Zeitskalierung für Nachtmodus"/>
+		<text name = "gui_fn_AutoNightTimeScale" text = "Auto Nacht Zeitskalierung"/>
+		<text name = "gui_fn_ShowHelp" text = "Tastenbelegung anzeigen"/>
+		<text name = "gui_fn_BtnBack" text = "Menü Verlassen"/>
+		<text name = "gui_fn_Save" text = "Einstellungen übernehmen"/>
+		<text name = "gui_fn_SaveToolTip" text = "übernimmt die aktuellen Einstellungen"/>
+	</texts>
+</l10n>
